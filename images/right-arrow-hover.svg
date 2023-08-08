@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 10" width="12" height="13">
+	<title>right-arrow-svg</title>
+	<defs>
+		<image  width="9" height="10" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKBAMAAACUK2mNAAAAAXNSR0IB2cksfwAAADBQTFRFql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dql1dLD2vsAAAABB0Uk5TUDAAoIDvEL//YM+fcODQ8I33nzUAAAA7SURBVHicY2BUUlIyYHAVUkpvYPDoVFwBJDu2doDIDiB5AkheYNDp6OhLYFCa32GkwKCk+EcJSAKBAgAhABId+1ksyAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Path_27" href="#img1" x="0" y="0"/>
+</svg>
