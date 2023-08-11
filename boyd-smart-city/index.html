@@ -3,7 +3,7 @@
 <!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
 <html lang="en">
 <head>
-  <title>Verge3D Web Interactive</title>
+  <title>BOYD - Industries</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
@@ -25,119 +25,120 @@
 </head>
 
 <body>
-  <div id = "boyd_smart_city_canvas" class="boyd_smart_city_canvas">
-  <div id="boyd_smart_city_preloader" class="boyd_smart_city_preloader">
-    <div id="preloader_div" class="preloader-background">
-      <div class="company-logo">
-        <div class="c-loading-container">
-          <div class="c-loader__text">
-            <h4>Loading... <span id="loading-value">0 %</span></h4>
-          </div>
-          <div class="c-loader__bar">
-            <div id="loading-bar-inner" class="c-loader__bar-block"></div>
-            <div id="loading-bar-inner" class="c-loader__bar-block empty-block"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="modal-desktop" class="popup-modal-desktop">
-    <div class="modal-container-desktop">
-
-      <div class="modal-header-desktop">
-        <div class="how-to-button-desktop">
-          <img src="./images/icons/instructions_blue.svg" loading="lazy" alt="" class="how-to-button__icon-desktop">
-          <div class="how-to-button__text-desktop"><strong>How to use?</strong></div>
-        </div>
-      </div>
-      <div class="modal-content-desktop">
-        <div class="instructions_div-desktop">
-          <div class="instructions_image_wrapper_desktop">
-          <img src="./images/icons/left_click.png" loading="lazy" alt="" class="modal-image-desktop">
-          </div>
-          <div class="instructions_text_wrapper_desktop">
-          <div class="modal-text-desktop">
-            <div><strong>Rotate<br><br></strong></div>
-            <div>Left click and drag to rotate the scene.</div>
-          </div>
-        </div> 
-        </div>
-        <div class="instructions_div-desktop">
-          <div class="instructions_image_wrapper_desktop">
-              <img src="./images/icons/click_mouse.webp" loading="lazy" alt="" class="modal-image-desktop">
-          </div>
-          <div class="instructions_text_wrapper_desktop">
-              <div class="modal-text-desktop">
-                  <div><strong>Click<br><br></strong></div>
-                  <div>Left click or hover over the annotations to view more details.</div>
-              </div>
-          </div>
-        </div>
-        <div class="instructions_div-desktop">
-          <div class="instructions_image_wrapper_desktop">
-          <img src="./images/icons/scroll.png" loading="lazy" alt="" class="modal-image-desktop">
-          </div>
-          <div class="instructions_text_wrapper_desktop">
-          <div class="modal-text-desktop">
-            <div><strong>Scroll<br><br></strong></div>
-            <div>Scroll the mouse wheel to zoom in and out.</div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="modal-close-btn-desktop"><a href="#" id="popup-modal-desktop-close" class="close-button-desktop">Close</a></div>
-    </div>
-  </div>
-  <div id="modal-mobile" class="popup-modal-mobile">
-    <div class="modal-container-mobile">
-        <div class="modal-header-mobile">
-            <div class="how-to-button-mobile">
-                <img src="./images/icons/instructions_blue.svg" loading="lazy" alt="" class="how-to-button__icon-mobile">
-                <div class="how-to-button__text-mobile"><strong>How to use?</strong></div>
-            </div>
-        </div>
-        <div class="modal-content-mobile">
-            <div class="instructions_div-mobile">
-                <div class="instructions_image_wrapper_mobile">
-                    <img src="./images/icons/rotate.webp" loading="lazy" alt="" class="modal-image-mobile">
-                </div>
-                <div class="instructions_text_wrapper_mobile">
-                <div class="modal-text-mobile">
-                    <div><strong>Rotate<br><br></strong></div>
-                    <div>Drag using one finger to rotate the model.</div>
-                </div>
-              </div>
-            </div>
-            <div class="instructions_div-mobile">
-              <div class="instructions_image_wrapper_mobile">
-                  <img src="./images/icons/tap.webp" loading="lazy" alt="" class="modal-image-mobile">
-              </div>
-              <div class="instructions_text_wrapper_mobile">
-                  <div class="modal-text-mobile">
-                      <div><strong>Tap<br><br></strong></div>
-                      <div>Tap on the annotations to view more details.</div>
-                  </div>
-              </div>
-            </div>
-            <div class="instructions_div-mobile">
-                <div class="instructions_image_wrapper_mobile">
-                    <img src="./images/icons/zoom.webp" loading="lazy" alt="" class="modal-image-mobile">
-                </div>
-                <div class="instructions_text_wrapper_mobile">
-                <div class="modal-text-mobile">
-                    <div><strong>Zoom<br><br></strong></div>
-                    <div>Pinch to zoom in and out.</div>
-                </div>
-              </div>
-            </div>
-        </div>
-        <div class="modal-close-btn-mobile"><a href="#" id="popup-modal-mobile-close" class="close-button-mobile">Close</a></div>
-    </div>
-  </div>
  
   <div id="v3d-container">
     <div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+
+    <div id="boyd_smart_city_preloader" class="boyd_smart_city_preloader">
+      <div id="preloader_div" class="preloader-background">
+        <div class="company-logo">
+          <div class="c-loading-container">
+            <div class="c-loader__text">
+              <h4>Loading... <span id="loading-value">0 %</span></h4>
+            </div>
+            <div class="c-loader__bar">
+              <div id="loading-bar-inner" class="c-loader__bar-block"></div>
+              <div id="loading-bar-inner" class="c-loader__bar-block empty-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="modal-desktop" class="popup-modal-desktop">
+      <div class="modal-container-desktop">
+  
+        <div class="modal-header-desktop">
+          <div class="how-to-button-desktop">
+            <img src="./images/icons/instructions_blue.svg" loading="lazy" alt="" class="how-to-button__icon-desktop">
+            <div class="how-to-button__text-desktop"><strong>How to use?</strong></div>
+          </div>
+        </div>
+        <div class="modal-content-desktop">
+          <div class="instructions_div-desktop">
+            <div class="instructions_image_wrapper_desktop">
+            <img src="./images/icons/left_click.png" loading="lazy" alt="" class="modal-image-desktop">
+            </div>
+            <div class="instructions_text_wrapper_desktop">
+            <div class="modal-text-desktop">
+              <div><strong>Rotate<br><br></strong></div>
+              <div>Left click and drag to rotate the scene.</div>
+            </div>
+          </div> 
+          </div>
+          <div class="instructions_div-desktop">
+            <div class="instructions_image_wrapper_desktop">
+                <img src="./images/icons/click_mouse.webp" loading="lazy" alt="" class="modal-image-desktop">
+            </div>
+            <div class="instructions_text_wrapper_desktop">
+                <div class="modal-text-desktop">
+                    <div><strong>Click<br><br></strong></div>
+                    <div>Left click or hover over the annotations to view more details.</div>
+                </div>
+            </div>
+          </div>
+          <div class="instructions_div-desktop">
+            <div class="instructions_image_wrapper_desktop">
+            <img src="./images/icons/scroll.png" loading="lazy" alt="" class="modal-image-desktop">
+            </div>
+            <div class="instructions_text_wrapper_desktop">
+            <div class="modal-text-desktop">
+              <div><strong>Scroll<br><br></strong></div>
+              <div>Scroll the mouse wheel to zoom in and out.</div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="modal-close-btn-desktop"><a href="#" id="popup-modal-desktop-close" class="close-button-desktop">Close</a></div>
+      </div>
+    </div>
+    <div id="modal-mobile" class="popup-modal-mobile">
+      <div class="modal-container-mobile">
+          <div class="modal-header-mobile">
+              <div class="how-to-button-mobile">
+                  <img src="./images/icons/instructions_blue.svg" loading="lazy" alt="" class="how-to-button__icon-mobile">
+                  <div class="how-to-button__text-mobile"><strong>How to use?</strong></div>
+              </div>
+          </div>
+          <div class="modal-content-mobile">
+              <div class="instructions_div-mobile">
+                  <div class="instructions_image_wrapper_mobile">
+                      <img src="./images/icons/rotate.webp" loading="lazy" alt="" class="modal-image-mobile">
+                  </div>
+                  <div class="instructions_text_wrapper_mobile">
+                  <div class="modal-text-mobile">
+                      <div><strong>Rotate<br><br></strong></div>
+                      <div>Drag using one finger to rotate the model.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="instructions_div-mobile">
+                <div class="instructions_image_wrapper_mobile">
+                    <img src="./images/icons/tap.webp" loading="lazy" alt="" class="modal-image-mobile">
+                </div>
+                <div class="instructions_text_wrapper_mobile">
+                    <div class="modal-text-mobile">
+                        <div><strong>Tap<br><br></strong></div>
+                        <div>Tap on the annotations to view more details.</div>
+                    </div>
+                </div>
+              </div>
+              <div class="instructions_div-mobile">
+                  <div class="instructions_image_wrapper_mobile">
+                      <img src="./images/icons/zoom.webp" loading="lazy" alt="" class="modal-image-mobile">
+                  </div>
+                  <div class="instructions_text_wrapper_mobile">
+                  <div class="modal-text-mobile">
+                      <div><strong>Zoom<br><br></strong></div>
+                      <div>Pinch to zoom in and out.</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="modal-close-btn-mobile"><a href="#" id="popup-modal-mobile-close" class="close-button-mobile">Close</a></div>
+      </div>
+    </div>
+
 
     <div id="preloader" class="preloader-div" style="display: none">
       <div class="preloader-container">
@@ -175,11 +176,11 @@
       </div>
     </div>
 
-    <button id="help_button" class="help-button">
+    <button id="help_button" class="help-button" style="display: none;">
       i
     </button>
 
-    <div id="boyd_company_logo" class="boyd-company-logo">
+    <div id="boyd_company_logo" class="boyd-company-logo" style="display: none;">
       <img src="./images/icons/boyd_logo.webp" alt="Boyd Company Logo" />
     </div>
   
@@ -201,9 +202,7 @@
       </div>
     </div>
   
-  </div>
-
-</div>  
+  </div>  
 </body>
 
 </html>
