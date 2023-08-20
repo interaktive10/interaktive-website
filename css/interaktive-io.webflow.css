@@ -6916,9 +6916,7 @@ figcaption {
 .nav-link-5 {
   color: #000;
   text-align: left;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-top: 20px;
   padding-right: 20px;
   transition-property: none;
@@ -6934,14 +6932,20 @@ figcaption {
 
 .nav-link-6 {
   color: #000;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-top: 20px;
   padding-right: 20px;
 }
 
 .nav-link-6:hover {
+  color: #4710d3;
+}
+
+.nav-link-6.w--current {
+  color: #000;
+}
+
+.nav-link-6.w--current:hover {
   color: #4710d3;
 }
 
@@ -12917,6 +12921,7 @@ figcaption {
   height: 400px;
   padding-left: 0;
   padding-right: 0;
+  position: relative;
   left: 10px;
   right: 10px;
 }
@@ -16499,7 +16504,7 @@ figcaption {
   }
 
   .retainer-bg {
-    height: 920px;
+    height: 960px;
   }
 
   .image-69, .image-70, .image-71, .image-72 {
@@ -16529,7 +16534,8 @@ figcaption {
   }
 
   .div-block-167.top {
-    width: auto;
+    width: 500px;
+    justify-content: center;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -16540,16 +16546,17 @@ figcaption {
   }
 
   .heading-28 {
+    text-align: center;
     object-fit: contain;
     flex-direction: row;
-    flex: 1;
+    flex: 0 auto;
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
-    font-size: 20px;
+    font-size: 32px;
     display: flex;
     top: 0;
     left: auto;
@@ -17645,7 +17652,7 @@ figcaption {
   }
 
   .retainer-bg {
-    height: 1200px;
+    height: 1160px;
   }
 
   .portfolio-title {
@@ -20236,6 +20243,10 @@ figcaption {
     line-height: 36px;
   }
 
+  .portfolio-section {
+    margin-bottom: 2rem;
+  }
+
   .ar-elements-columns {
     height: 440px;
     margin-bottom: auto;
@@ -20291,6 +20302,7 @@ figcaption {
   }
 
   .div-block-167.top {
+    width: auto;
     top: -25px;
   }
 
