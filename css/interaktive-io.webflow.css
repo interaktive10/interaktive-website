@@ -1477,6 +1477,7 @@ figcaption {
 }
 
 .hero-section {
+  z-index: 39999;
   height: auto;
   background-color: rgba(0, 0, 0, 0);
   border: 0 solid #000;
@@ -1976,6 +1977,7 @@ figcaption {
   font-size: 3rem;
   font-weight: 600;
   line-height: 44px;
+  position: relative;
 }
 
 .heading-3.subheading {
@@ -5246,9 +5248,10 @@ figcaption {
 }
 
 .nav-section {
+  z-index: 49999;
   height: 100px;
   background-color: rgba(0, 0, 0, 0);
-  margin-top: auto;
+  margin-top: 0;
   display: block;
   position: relative;
   top: auto;
@@ -6381,6 +6384,7 @@ figcaption {
 }
 
 .nav-container {
+  z-index: auto;
   height: 100px;
   max-width: 1200px;
   grid-column-gap: 16px;
@@ -7823,7 +7827,9 @@ figcaption {
 
 .link-6.w--current:hover {
   opacity: 1;
-  filter: invert(74%);
+  filter: none;
+  outline-offset: 0px;
+  outline: 1px #16163c;
 }
 
 .industries-section-mob {
@@ -12398,6 +12404,7 @@ figcaption {
 .heading-25.unlimited {
   padding-left: 3rem;
   padding-right: 3rem;
+  position: relative;
 }
 
 .retainers---heading {
@@ -12516,6 +12523,7 @@ figcaption {
 
 .bold-text-46 {
   color: #fff;
+  position: relative;
 }
 
 .retainer-bg {
@@ -15987,10 +15995,11 @@ figcaption {
 
   .nav-menu-mobile {
     display: block;
+    position: relative;
   }
 
   .simple-nav-link-holder {
-    z-index: 95;
+    z-index: auto;
   }
 
   .simple-link, .simple-link.pricing {
@@ -16011,7 +16020,7 @@ figcaption {
   }
 
   .simple-menu-button.circular {
-    z-index: 100;
+    z-index: auto;
     background-color: rgba(0, 0, 0, 0);
     padding-top: 0;
     top: 5px;
@@ -17275,7 +17284,7 @@ figcaption {
     order: 0;
     align-self: auto;
     margin: auto 0 auto auto;
-    display: block;
+    display: none;
     position: absolute;
     top: 0%;
     bottom: 0%;
@@ -17875,11 +17884,12 @@ figcaption {
   }
 
   .hero-section {
+    z-index: auto;
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     display: block;
-    top: 0;
+    top: auto;
   }
 
   .logos-title-small {
@@ -18305,7 +18315,10 @@ figcaption {
   }
 
   .nav-section {
+    max-width: none;
     display: inline;
+    top: auto;
+    overflow: visible;
   }
 
   .link-2 {
@@ -18502,6 +18515,10 @@ figcaption {
     left: auto;
   }
 
+  .nav-menu {
+    display: none;
+  }
+
   .text-block-24 {
     margin-left: 5px;
     padding-left: 5px;
@@ -18515,6 +18532,12 @@ figcaption {
     height: 40px;
     margin-left: 0;
     padding-top: 0;
+  }
+
+  .nav-container {
+    z-index: 59999;
+    display: flex;
+    position: relative;
   }
 
   .icon-2 {
@@ -18578,6 +18601,21 @@ figcaption {
 
   .div-block-63 {
     margin-left: auto;
+  }
+
+  .nav-menu-mobile {
+    flex: none;
+    position: relative;
+  }
+
+  .simple-nav-link-holder {
+    z-index: 48500;
+    display: block;
+  }
+
+  .simple-menu-button.circular {
+    z-index: 48500;
+    top: 5px;
   }
 
   .line-1.simple, .line-2.simple, .line-3.simple {
@@ -20066,10 +20104,18 @@ figcaption {
     background-color: #5a51c3;
   }
 
+  .pricing-box {
+    margin-bottom: 2%;
+  }
+
   .toggle-contain {
     width: 60px;
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  .pricing-retainers {
+    position: relative;
   }
 
   .toggle-contain-2 {
@@ -20086,6 +20132,7 @@ figcaption {
 
   .heading-25.inhouse {
     margin-top: 2rem;
+    position: relative;
   }
 
   .heading-25.unlimited {
@@ -20119,7 +20166,12 @@ figcaption {
   }
 
   .retainer-bg {
-    height: 1240px;
+    z-index: auto;
+    height: 1700px;
+    background-image: linear-gradient(157deg, #8a5cd4, #747af2 49%, #54b9f7);
+    margin-top: 0;
+    display: block;
+    position: absolute;
   }
 
   .bold-text-47, .bold-text-48 {
@@ -20261,7 +20313,12 @@ figcaption {
     width: 100%;
   }
 
-  .bold-text-49, .bold-text-50, .bold-text-51 {
+  .bold-text-49 {
+    font-size: 32px;
+    position: relative;
+  }
+
+  .bold-text-50, .bold-text-51 {
     font-size: 32px;
   }
 
