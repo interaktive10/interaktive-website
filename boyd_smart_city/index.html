@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>BOYD - Industries</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#0048a5">
+  <meta name="theme-color" content="#ffffff">
+
+
+  
+  <script src="v3d.js"></script>
+  <script src="boyd_smart_city.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="boyd_smart_city.css">
+</head>
+
+<body>
+ 
+  <div id="v3d-container">
+    <div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+
+    <div id="boyd_smart_city_preloader" class="boyd_smart_city_preloader">
+      <div id="preloader_div" class="preloader-background">
+        <div class="company-logo">
+          <div class="c-loading-container">
+            <div class="c-loader__text">
+              <h4>Loading... <span id="loading-value">0 %</span></h4>
+            </div>
+            <div class="c-loader__bar">
+              <div id="loading-bar-inner" class="c-loader__bar-block"></div>
+              <div id="loading-bar-inner" class="c-loader__bar-block empty-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="modal-desktop" class="popup-modal-desktop">
+      <div class="modal-container-desktop">
+  
+        <div class="modal-header-desktop">
+          <div class="how-to-button-desktop">
+            <img src="./images/icons/instructions_blue.svg" loading="lazy" alt="" class="how-to-button__icon-desktop">
+            <div class="how-to-button__text-desktop"><strong>How to use?</strong></div>
+          </div>
+        </div>
+        <div class="modal-content-desktop">
+          <div class="instructions_div-desktop">
+            <div class="instructions_image_wrapper_desktop">
+            <img src="./images/icons/left_click.png" loading="lazy" alt="" class="modal-image-desktop">
+            </div>
+            <div class="instructions_text_wrapper_desktop">
+            <div class="modal-text-desktop">
+              <div><strong>Rotate<br><br></strong></div>
+              <div>Left click and drag to rotate the scene.</div>
+            </div>
+          </div> 
+          </div>
+          <div class="instructions_div-desktop">
+            <div class="instructions_image_wrapper_desktop">
+                <img src="./images/icons/click_mouse.webp" loading="lazy" alt="" class="modal-image-desktop">
+            </div>
+            <div class="instructions_text_wrapper_desktop">
+                <div class="modal-text-desktop">
+                    <div><strong>Click<br><br></strong></div>
+                    <div>Left click or hover over the annotations to view more details.</div>
+                </div>
+            </div>
+          </div>
+          <div class="instructions_div-desktop">
+            <div class="instructions_image_wrapper_desktop">
+            <img src="./images/icons/scroll.png" loading="lazy" alt="" class="modal-image-desktop">
+            </div>
+            <div class="instructions_text_wrapper_desktop">
+            <div class="modal-text-desktop">
+              <div><strong>Scroll<br><br></strong></div>
+              <div>Scroll the mouse wheel to zoom in and out.</div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="modal-close-btn-desktop"><a href="#" id="popup-modal-desktop-close" class="close-button-desktop">Close</a></div>
+      </div>
+    </div>
+    <div id="modal-mobile" class="popup-modal-mobile">
+      <div class="modal-container-mobile">
+          <div class="modal-header-mobile">
+              <div class="how-to-button-mobile">
+                  <img src="./images/icons/instructions_blue.svg" loading="lazy" alt="" class="how-to-button__icon-mobile">
+                  <div class="how-to-button__text-mobile"><strong>How to use?</strong></div>
+              </div>
+          </div>
+          <div class="modal-content-mobile">
+              <div class="instructions_div-mobile">
+                  <div class="instructions_image_wrapper_mobile">
+                      <img src="./images/icons/rotate.webp" loading="lazy" alt="" class="modal-image-mobile">
+                  </div>
+                  <div class="instructions_text_wrapper_mobile">
+                  <div class="modal-text-mobile">
+                      <div><strong>Rotate<br><br></strong></div>
+                      <div>Drag using one finger to rotate the model.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="instructions_div-mobile">
+                <div class="instructions_image_wrapper_mobile">
+                    <img src="./images/icons/tap.webp" loading="lazy" alt="" class="modal-image-mobile">
+                </div>
+                <div class="instructions_text_wrapper_mobile">
+                    <div class="modal-text-mobile">
+                        <div><strong>Tap<br><br></strong></div>
+                        <div>Tap on the annotations to view more details.</div>
+                    </div>
+                </div>
+              </div>
+              <div class="instructions_div-mobile">
+                  <div class="instructions_image_wrapper_mobile">
+                      <img src="./images/icons/zoom.webp" loading="lazy" alt="" class="modal-image-mobile">
+                  </div>
+                  <div class="instructions_text_wrapper_mobile">
+                  <div class="modal-text-mobile">
+                      <div><strong>Zoom<br><br></strong></div>
+                      <div>Pinch to zoom in and out.</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="modal-close-btn-mobile"><a href="#" id="popup-modal-mobile-close" class="close-button-mobile">Close</a></div>
+      </div>
+    </div>
+
+
+    <div id="preloader" class="preloader-div" style="display: none">
+      <div class="preloader-container">
+        <div class="internal-loading-container">
+          <div class="internal-loader__text">
+            <h4>Loading...</h4>
+            <!-- <h4>Loading... <span id="internal-loading-value">0 %</span></h4> -->
+          </div>
+        </div>
+        <div id="preloader_bar" class="preloader-bar"></div>
+      </div>
+    </div>
+    
+    
+
+     <div class="main-container">
+      <div class="dynamic-text" id="internal_header_text" style="display: none;">
+      <span class="text-option" id="internal_text" style="display: none;">Industrial Automation - Internal</span>
+      </div>
+      
+      <div id="button_container" class="button-container">
+        
+         <button id="home_button" class="navigation-button" style="display: none;">
+          <svg fill="#ffffff" width="36px" height="36px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3s-6.186 5.34-9.643 8.232c-.203.184-.357.452-.357.768 0 .553.447 1 1 1h2v7c0 .553.447 1 1 1h3c.553 0 1-.448 1-1v-4h4v4c0 .552.447 1 1 1h3c.553 0 1-.447 1-1v-7h2c.553 0 1-.447 1-1 0-.316-.154-.584-.383-.768-3.433-2.892-9.617-8.232-9.617-8.232z"/>
+          </svg>
+        </button> 
+
+        <button id="back_button" class="navigation-button" style="display: none;">
+          <svg fill="#ffffff" width="32px" height="28.8px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+            <path d="M222.927 580.115l301.354 328.512c24.354 28.708 20.825 71.724-7.883 96.078s-71.724 20.825-96.078-7.883L19.576 559.963a67.846 67.846 0 01-13.784-20.022 68.03 68.03 0 01-5.977-29.488l.001-.063a68.343 68.343 0 017.265-29.134 68.28 68.28 0 011.384-2.6 67.59 67.59 0 0110.102-13.687L429.966 21.113c25.592-27.611 68.721-29.247 96.331-3.656s29.247 68.721 3.656 96.331L224.088 443.784h730.46c37.647 0 68.166 30.519 68.166 68.166s-30.519 68.166-68.166 68.166H222.927z"/>
+          </svg>       
+        </button>
+        
+      </div>
+    </div>
+
+    <button id="help_button" class="help-button" style="display: none;">
+      i
+    </button>
+
+    <div id="boyd_company_logo" class="boyd-company-logo" style="display: none;">
+      <img src="./images/icons/boyd_logo.webp" alt="Boyd Company Logo" />
+    </div>
+  
+
+    <div id="vehicle_features_container" class="vehicle-features-container">
+      <button id="infotainment_hmi_button" class="vehicle-feature-button">Infotainment & HMI Solutions</button>
+      <button id="ev_solutions_button" class="vehicle-feature-button">EV Solutions</button>
+      <button id="car_outer_view_button" class="vehicle-feature-button">Car - Full View</button>
+    </div>
+  
+    <div id="valueStatementsModal" class="valueStatementsPopup">
+      
+
+      <div class="valueStatementsContainer">
+        <div id="value_statement_header_mobile" class="value-statement-header-mobile"></div>
+          <div class="valueStatementsContent" id="valueStatementsContentId">
+          </div>
+          <div class="modal-close-btn-mobile"><a href="#" id="valueStatementsCloseBtn" class="close-button-mobile">Close</a></div>
+      </div>
+    </div>
+  
+  </div>  
+</body>
+
+</html>
