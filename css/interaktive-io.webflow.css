@@ -14543,7 +14543,7 @@ figcaption {
     padding-right: 15px;
     font-size: 15px;
     transition-property: none;
-    top: 45px;
+    top: 80px;
     left: auto;
   }
 
@@ -16004,7 +16004,7 @@ figcaption {
   }
 
   .simple-nav-link-holder {
-    z-index: auto;
+    z-index: 48502;
   }
 
   .simple-link, .simple-link.pricing {
