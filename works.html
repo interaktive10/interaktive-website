@@ -25,6 +25,7 @@
   <!--  Google tag (gtag.js) - Google Analytics  -->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-241658932-1">
 </script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -39,6 +40,16 @@
       text-decoration: none; /* Removes underline */
       /* Add any other styles to match your design */
   }
+</style>
+<style>
+.custom-model-viewer-container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    display: block;
+    position: relative;
+}
 </style>
 </head>
 <body class="body-10">
@@ -122,7 +133,19 @@
           <div class="ar-elements-columns w-col w-col-4">
             <div class="ar-element w-embed w-iframe">
               <div style="position: relative; padding-bottom: 56.25%; height: 100%; overflow: hidden;">
-                <iframe src="https://metaviewer.azurewebsites.net/view?ApiKey=grinder" style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border:0;"></iframe>
+                <div class="custom-model-viewer-container">
+            <div class="glb mobile heroku w-embed">
+              <style>
+model-viewer#viewer {
+
+    width: 100%;
+--poster-color: transparent;
+}
+</style>
+              <model-viewer id="viewer" disable-pan="" auto-rotate="" src="https://interaktive10.github.io/hosted-assets/Grinder.glb" ios-src="https://interaktive10.github.io/hosted-assets/grinder.usdz" style="width: 100%;height: 400px; top: 0px" alt="A 3D model" preload="" ar="" ar-modes="quick-look scene-viewer webxr" shadow-intensity="1" exposure="2" interaction-prompt="auto" camera-controls="" autoplay="true" quick-look-browsers="safari chrome" camera-orbit="0deg 75deg auto" min-field-of-view="10deg" max-field-of-view="100deg" min-camera-orbit="auto 0deg 80%" max-camera-orbit="auto 180deg 100%">
+              </model-viewer>
+            </div>
+          </div>
               </div>
             </div>
           </div>
@@ -134,7 +157,17 @@
           <div class="ar-elements-columns bottom w-col w-col-4">
             <div class="ar-element w-embed w-iframe">
               <div style="position: relative; padding-bottom: 56.25%; height: 100%; overflow: hidden;">
-                <iframe src="https://metaviewer.azurewebsites.net/view?ApiKey=horeca-glass-box" style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border:0;"></iframe>
+                <div class="custom-model-viewer-container">
+            <div class="glb mobile heroku w-embed">
+              <style>
+model-viewer#viewer {
+--poster-color: transparent;
+}
+</style>
+              <model-viewer id="viewer" disable-pan="" auto-rotate=""  src="https://interaktive10.github.io/hosted-assets/horeca-box-scaled1.glb" ios-src="https://interaktive10.github.io/hosted-assets/glass_box_playground.usdz" style="width: 100%; height: 400px; top: 0px" alt="A 3D model" preload="" ar="" ar-modes="quick-look scene-viewer webxr" shadow-intensity="1" exposure="2" interaction-prompt="auto" camera-controls="" autoplay="true" quick-look-browsers="safari chrome" camera-orbit="0deg 75deg auto" min-field-of-view="10deg" max-field-of-view="100deg" min-camera-orbit="auto 0deg 80%" max-camera-orbit="auto 180deg 100%">
+              </model-viewer>
+            </div>
+          </div>
               </div>
             </div>
           </div>
