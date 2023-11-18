@@ -23,6 +23,17 @@
   <link href="../images/webclip.png" rel="apple-touch-icon">
   <meta name="format-detection" content="telephone=no , email=no">
   <style>
+    .custom-model-viewer-container {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding-top: 0;
+        display: block;
+        position: relative;
+    }
+    </style>
+    
+  <style>
   a[href^="tel"],
   a[href^="mailto"] {
       color: inherit; /* Use the color you want */
@@ -30,6 +41,8 @@
       /* Add any other styles to match your design */
   }
 </style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 </head>
 <body class="body-9">
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-section w-nav">
@@ -134,10 +147,10 @@
           </div>
         </div>
       </div>
-      <div class="service-text"><strong>Exhibit 2: </strong>We designed an intuitive 3D product configurator that allowed Boyd&#x27;s customers to engage with the 3D models, explore annotations, play interactive animations, and customize product materials and textures. This configurator enhanced the customer journey by enabling them to fully understand and visualize the product offerings in a hands-on manner.</div>
+      <!-- <div class="service-text"><strong>Exhibit 2: </strong>We designed an intuitive 3D product configurator that allowed Boyd&#x27;s customers to engage with the 3D models, explore annotations, play interactive animations, and customize product materials and textures. This configurator enhanced the customer journey by enabling them to fully understand and visualize the product offerings in a hands-on manner.</div>
       <div class="div-block-143">
         <div class="html-embed-23 w-embed w-iframe"><iframe src="https://medical-wearable-widget.vercel.app/" width="100%" height="600" frameborder="0" allowfullscreen=""></iframe></div>
-      </div>
+      </div> -->
     </div>
     <div class="service-container">
       <div class="service-column-left w-row">
@@ -175,8 +188,8 @@
         <div class="w-layout-grid grid-9">
           <div style="padding-top:56.17021276595745%" class="youtube-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FboqX_1b1gG8%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DboqX_1b1gG8&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FboqX_1b1gG8%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" allowfullscreen="" title="Data Center Cooling Systems | Cool Cutting-Edge Artificial Intelligence | Boyd"></iframe></div>
           <div style="padding-top:56.17021276595745%" class="youtube-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FagPF3v7se1Y%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DagPF3v7se1Y&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FagPF3v7se1Y%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" allowfullscreen="" title="What is a Thermosiphon?"></iframe></div>
-          <div style="padding-top:56.17021276595745%" class="youtube-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Ffph-xqQAz_4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dfph-xqQAz_4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ffph-xqQAz_4%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" allowfullscreen="" title="How to Cool and Protect Battery Energy Storage Systems (BESSs)?"></iframe></div>
-          <div style="padding-top:56.17021276595745%" class="youtube-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fc364-uOlUtw%3Fstart%3D21%26feature%3Doembed%26start%3D21&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc364-uOlUtw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fc364-uOlUtw%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" allowfullscreen="" title="Human Machine Interface (HMI) Solutions for the eMobility Industry"></iframe></div>
+          <div style="padding-top:56.17021276595745%" class="youtube-video w-video w-embed"><iframe class="embedly-embed" src="https://www.youtube.com/embed/9Y5K0xiEmuQ?feature=oembed" scrolling="no" allowfullscreen="" title="Aircraft Thermal Management and Engineering Solutions | Boyd"></iframe></div>
+        <div style="padding-top:56.17021276595745%" class="youtube-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fc364-uOlUtw%3Fstart%3D21%26feature%3Doembed%26start%3D21&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc364-uOlUtw&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fc364-uOlUtw%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" allowfullscreen="" title="Human Machine Interface (HMI) Solutions for the eMobility Industry"></iframe></div>
         </div>
       </div>
     </div>
@@ -187,7 +200,11 @@
           <div class="service-text">We optimized and repurposed the 3D animation models for Augmented Reality (AR), allowing Boyd&#x27;s clients to visualize their products within real-world environments at true-to-life scale.</div>
         </div>
         <div class="services-media-content w-col w-col-6">
-          <div class="html-embed-24 w-embed w-iframe"><iframe src="https://metaviewer.azurewebsites.net/view?ApiKey=boyd-chiller" style="height: 100%; width: 100%; border: none;"></iframe></div>
+          <div class="custom-model-viewer-container glb mobile heroku w-embed">
+            <model-viewer id="viewer" disable-pan="" auto-rotate="" src="https://interaktive10.github.io/hosted-assets/draco_pcim.glb" style="width: 100%; height: 400px; top: 0px" alt="A 3D model" preload="" ar="" ar-modes="quick-look scene-viewer webxr" shadow-intensity="1" exposure="2" interaction-prompt="auto" camera-controls="" autoplay="true" quick-look-browsers="safari chrome" camera-orbit="0deg 75deg auto" min-field-of-view="10deg" max-field-of-view="100deg" min-camera-orbit="auto 0deg 80%" max-camera-orbit="auto 180deg 100%">
+            </model-viewer>
+        </div>      
+        
         </div>
       </div>
     </div>
