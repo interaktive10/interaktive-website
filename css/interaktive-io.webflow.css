@@ -798,7 +798,6 @@ figcaption {
 .text-field.cc-contact-field {
   margin-bottom: 25px;
 }
-
 .text-field.cc-textarea {
   height: 200px;
   padding-top: 12px;
@@ -1589,7 +1588,6 @@ figcaption {
   position: sticky;
   top: 50px;
 }
-
 .gallery-link {
   color: #1a1b1f;
   flex: 0 auto;
@@ -1600,7 +1598,6 @@ figcaption {
   line-height: 32px;
   text-decoration: none;
 }
-
 .gallery-link:hover {
   color: rgba(26, 27, 31, .8);
 }
@@ -2386,7 +2383,6 @@ figcaption {
   margin-top: -45px;
   margin-left: 558px;
 }
-
 .image-9 {
   margin-top: 7px;
   margin-left: 12px;
@@ -2401,7 +2397,6 @@ figcaption {
   margin-top: -95px;
   margin-left: 376px;
 }
-
 .image-10.clients-wrapper-three {
   margin-top: -41px;
 }
@@ -3185,7 +3180,6 @@ figcaption {
   height: 100%;
   object-fit: cover;
 }
-
 .testimonial-card {
   height: 100%;
   box-shadow: 17px 88px 60px -100px rgba(79, 94, 120, .18), 11px 0 20px -9px rgba(79, 94, 120, .1);
@@ -3196,7 +3190,6 @@ figcaption {
   margin-top: 25px;
   display: flex;
 }
-
 .content-h2 {
   color: #151c34;
   letter-spacing: -1px;
@@ -3980,7 +3973,6 @@ figcaption {
   font-weight: 400;
   line-height: 50px;
 }
-
 .text-block-11 {
   width: 150px;
   color: #757575;
@@ -3992,7 +3984,6 @@ figcaption {
   font-family: Gelion;
   font-size: 18px;
 }
-
 .text-block-11._3 {
   margin-top: 0;
   margin-bottom: -78px;
@@ -4781,7 +4772,6 @@ figcaption {
   font-family: Gelion;
   font-size: 18px;
 }
-
 .link {
   width: auto;
   color: #fff;
@@ -5576,7 +5566,6 @@ figcaption {
   top: 32px;
   left: 780px;
 }
-
 .line.right.top {
   width: 250px;
   max-width: 50px;
@@ -6370,7 +6359,6 @@ figcaption {
   top: auto;
   left: auto;
 }
-
 .logo1 {
   padding-top: 0;
   padding-right: 0;
@@ -7170,7 +7158,6 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
 }
-
 .nav2 {
   display: block;
 }
@@ -7968,12 +7955,10 @@ figcaption {
   height: 100vh;
   margin-top: auto;
 }
-
 .div-block-90 {
   height: 20px;
   background-color: #000;
 }
-
 .html-embed-8 {
   width: 100%;
   height: 100%;
@@ -8769,7 +8754,6 @@ figcaption {
   display: block;
   position: static;
 }
-
 .div-block-105 {
   width: 90px;
   height: 90px;
@@ -9569,7 +9553,6 @@ figcaption {
   margin-top: 40px;
   display: block;
 }
-
 .text.pg, .text.white {
   color: #3f3f3f;
   margin-top: 40px;
@@ -10368,11 +10351,9 @@ figcaption {
   margin-bottom: auto;
   display: flex;
 }
-
 .title-child-header.pressed {
   cursor: pointer;
 }
-
 .title-child-header.pressed:active {
   color: #df6b3a;
 }
@@ -11166,14 +11147,12 @@ figcaption {
   position: relative;
   overflow: hidden;
 }
-
 .c-title__image-wrapper-header-types.instructions {
   width: 30px;
   background-image: none;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .additional-info {
   z-index: 400;
   width: 2rem;
@@ -11962,14 +11941,12 @@ figcaption {
   padding-top: 0;
   padding-right: 20px;
 }
-
 .bold-text-32 {
   color: #16163c;
   text-align: left;
   font-family: Gtwalsheimpro, sans-serif;
   font-size: 1.5rem;
 }
-
 .client-testimonial {
   width: 95%;
   text-align: center;
@@ -12758,7 +12735,6 @@ figcaption {
   margin-top: 40px;
   display: flex;
 }
-
 .v3d-smart-city-container {
   width: 90vw;
   height: 90vh;
@@ -12770,7 +12746,6 @@ figcaption {
   left: 0%;
   right: 0%;
 }
-
 .test-annotate {
   width: auto;
   max-width: 200px;
@@ -13157,7 +13132,6 @@ figcaption {
 .nav-link-4-copy-copy.w--current {
   color: #000;
 }
-
 @media screen and (min-width: 1920px) {
   .button {
     flex-direction: row;
@@ -13956,11 +13930,9 @@ figcaption {
     font-family: Gtwalsheimpro, sans-serif;
     font-size: 2rem;
   }
-
   .div-block-146 {
     height: auto;
   }
-
   .bold-text-32 {
     font-family: Gtwalsheimpro, sans-serif;
     font-size: 2rem;
@@ -14748,7 +14720,6 @@ figcaption {
   .column-left {
     padding: 20px;
   }
-
   .logo {
     text-align: left;
     justify-content: flex-start;
@@ -14761,7 +14732,6 @@ figcaption {
     position: relative;
     left: auto;
   }
-
   .column-right {
     padding: 20px;
   }
@@ -15542,7 +15512,6 @@ figcaption {
   .testcont {
     height: auto;
   }
-
   .container-28 {
     max-width: none;
     display: flex;
@@ -15561,7 +15530,6 @@ figcaption {
     font-size: 20px;
     left: 228px;
   }
-
   .button-12.w--current {
     font-size: 26px;
   }
@@ -16004,7 +15972,8 @@ figcaption {
   }
 
   .simple-nav-link-holder {
-    z-index: 48502;
+    z-index: 48500;
+    display: block;
   }
 
   .simple-link, .simple-link.pricing {
@@ -16025,7 +15994,7 @@ figcaption {
   }
 
   .simple-menu-button.circular {
-    z-index: auto;
+    z-index: 48501;
     background-color: rgba(0, 0, 0, 0);
     padding-top: 0;
     top: 5px;
@@ -16033,7 +16002,7 @@ figcaption {
   }
 
   .line-1.simple, .line-2.simple, .line-3.simple {
-    width: 30px;
+    width: 25px;
     border: 1px solid #5a51c3;
   }
 
@@ -16332,7 +16301,6 @@ figcaption {
     width: auto;
     max-width: 15rem;
   }
-
   .button-14 {
     color: #fff;
     text-align: left;
@@ -16362,7 +16330,6 @@ figcaption {
   .preloader-background {
     display: block;
   }
-
   .selections {
     width: 30vw;
   }
@@ -17133,7 +17100,6 @@ figcaption {
   .pricing-card {
     width: auto;
   }
-
   .pricing-title {
     width: auto;
     font-size: 34px;
@@ -17164,7 +17130,6 @@ figcaption {
   .contact-footer.pages {
     z-index: 10;
   }
-
   .pricing-nav {
     left: 40px;
   }
@@ -17748,7 +17713,6 @@ figcaption {
     margin-bottom: auto;
   }
 }
-
 @media screen and (max-width: 479px) {
   h1 {
     font-size: 36px;
@@ -18546,12 +18510,10 @@ figcaption {
     display: flex;
     position: relative;
   }
-
   .icon-2 {
     display: block;
     position: absolute;
   }
-
   .text-block-25 {
     margin-left: auto;
     margin-right: auto;
@@ -18621,12 +18583,16 @@ figcaption {
   }
 
   .simple-menu-button.circular {
-    z-index: 48500;
+    z-index: 48503;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
     top: 5px;
+    left: auto;
   }
 
   .line-1.simple, .line-2.simple, .line-3.simple {
-    width: 25px;
+    width: 30px;
+    border: 1px solid #5a51c3;
   }
 
   .div-block-64 {
@@ -19344,12 +19310,10 @@ figcaption {
     top: auto;
     overflow: auto;
   }
-
   .istructions-header.title-child-options {
     font-family: Helvetica, sans-serif;
     line-height: 1rem;
   }
-
   .verge-container.iframe {
     display: block;
   }
@@ -20141,7 +20105,6 @@ figcaption {
     margin-top: 2rem;
     position: relative;
   }
-
   .heading-25.unlimited {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -20151,7 +20114,6 @@ figcaption {
   .text-block-89 {
     font-size: 1.25rem;
   }
-
   .text-block-92 {
     font-size: 1rem;
   }
@@ -20400,7 +20362,7 @@ figcaption {
 }
 @font-face {
   font-family: 'Helvetica neue';
-  src: url('../fonts/HelveticaNeue-BlackCond.ttf') format('truetype');
+  src: url('../fonts/HelveticaNeueBlackCond.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
